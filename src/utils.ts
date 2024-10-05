@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 
-export const EXTENSION_ID = "unreal-angelscript-clang-format";
+export const EXTENSION_ID = "openplanet-angelscript-clang-format";
 export const EXECUTABLE_CONFIG_KEY = 'executable';
 
 

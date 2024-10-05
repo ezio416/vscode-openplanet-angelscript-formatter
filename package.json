@@ -1,17 +1,15 @@
 {
-  "name": "unreal-angelscript-clang-format",
-  "displayName": "Unreal AngelScript Clang-Format",
-  "description": "Format Unreal Engine AngelScript code using Clang-Format",
+  "name": "openplanet-angelscript-clang-format",
+  "displayName": "Openplanet AngelScript Clang-Format",
+  "description": "Format Openplanet Engine AngelScript code using Clang-Format",
   "publisher": "Hazelight",
   "version": "0.1.5",
   "engines": {
     "vscode": "^1.77.0"
   },
   "keywords": [
-    "unreal",
-    "engine",
-    "angelscript",
-    "ue5"
+    "openplanet",
+    "angelscript"
   ],
   "categories": [
     "Formatters"
@@ -23,20 +21,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "unreal-angelscript-clang-format.generate-config-file",
-        "category": "Unreal AngelScript Clang-Format",
+        "command": "openplanet-angelscript-clang-format.generate-config-file",
+        "category": "Openplanet AngelScript Clang-Format",
         "title": "Generate Config File"
       }
     ],
     "configuration": {
-      "title": "Unreal AngelScript Clang-Format",
+      "title": "Openplanet AngelScript Clang-Format",
       "properties": {
-        "unreal-angelscript-clang-format.executable": {
+        "openplanet-angelscript-clang-format.executable": {
           "type": "string",
           "description": "Path to clang-format.exe executable, can be absolute or relative to the workspace",
           "scope": "resource"
         },
-        "unreal-angelscript-clang-format.style": {
+        "openplanet-angelscript-clang-format.style": {
           "type": "string",
           "description": "Path to a .clang-format style file, can be absolute or relative to the workspace",
           "scope": "resource"
@@ -52,10 +50,10 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hazelight/vscode-unreal-angelscript-formatter"
+    "url": "https://github.com/Hazelight/vscode-openplanet-angelscript-formatter"
   },
   "bugs": {
-    "url": "https://github.com/Hazelight/vscode-unreal-angelscript-formatter/issues"
+    "url": "https://github.com/Hazelight/vscode-openplanet-angelscript-formatter/issues"
   },
   "scripts": {
     "vscode:prepublish": "npm run esbuild-base -- --minify",

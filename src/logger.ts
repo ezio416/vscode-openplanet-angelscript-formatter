@@ -5,7 +5,7 @@ export class Logger {
 
     public static log(message: string) {
         if (!this._outputChannel) {
-            this._outputChannel = vscode.window.createOutputChannel("Unreal AngelScript Formatter");
+            this._outputChannel = vscode.window.createOutputChannel("Openplanet AngelScript Formatter");
         }
 
         const dateTimeStr = new Date().toLocaleString();

@@ -249,7 +249,7 @@ export class AngelscriptClangDocumentFormattingEditProvider implements vscode.Do
             clangProcess.stderr.on('data', chunk => stderr += chunk);
 
             let bHasShownError = false; // Prevent showing multiple error popups
-            
+
             // On error
             clangProcess.on('error', err => {
                 bHasShownError = true;
